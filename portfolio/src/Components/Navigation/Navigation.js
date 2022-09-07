@@ -1,15 +1,16 @@
 import Hamburger from '../Hamburger/Hamburger';
+import Button from '../Navigation and Footer Components/Nav and Footer Button/Button';
 import './Navigation.css';
 
 function Navigation() {
   return (
     <div className="Navigation">
-      <header className="Navigation-header">
-        BEHOLD THE NAVIGATION BAR
-      </header>
+      <Button name="Home"></Button>
+      <Button name="Projects"></Button>
+      <Button name="Languages"></Button>
+      <Button name="About"></Button>
+
       <Hamburger className="Hamburger-Nav"></Hamburger>
-      <div>It is humble. It shall guide you throughout your journey in my portfolio.</div>
-      {/* I have nonsense here, I just want to see things on the nav. */}
     </div>
   );
 }
