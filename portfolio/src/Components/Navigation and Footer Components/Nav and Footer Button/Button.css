@@ -1,0 +1,8 @@
+.Button{
+    width: min-content;
+    color: 61DAFB;
+    background-color: gray;
+    /* border: 5px red; */
+    margin: auto;
+    padding: 5px;
+}

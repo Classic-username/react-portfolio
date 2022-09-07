@@ -1,0 +1,10 @@
+.Hamburger {
+    background-color: #282c34;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    /* align-items: left; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
