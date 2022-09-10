@@ -1,12 +1,9 @@
 .Navigation{
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   background-color: darkgrey;
   justify-items: center;
   align-content: center;
-}
-#root > div > div > div.Hamburger > div:nth-child(n){
-  justify-self: left;
 }
