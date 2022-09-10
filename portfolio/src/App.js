@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 
 import logo from './logo.svg';
 import './App.css';
@@ -13,7 +13,7 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
             {/* I'm leaving this stuff in, I want to learn about the keyframes rotating the logo */}
-            {/* adding a comment so I have something to commit and push to github */}
+            {/* so it turns out links don't render components like this, I need to pass them as element={} or some other way I haven't learned about yet */}
         </header>
       {/* </Link> */}
       
