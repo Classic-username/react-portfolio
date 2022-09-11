@@ -1,9 +1,13 @@
 .Navigation{
   display: flex;
-  /* flex-direction: row;
-  justify-content: center;
-  align-items: center; */
   background-color: darkgrey;
   justify-items: center;
   align-content: center;
+  height: min-content;
+}
+.Link{
+  width: min-content;
+    color: 61DAFB;
+    background-color: gray;
+    margin: auto;
 }

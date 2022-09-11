@@ -16,6 +16,7 @@ function App() {
             {/* so it turns out links don't render components like this, I need to pass them as element={} or some other way I haven't learned about yet */}
         {/* </header> */}
       {/* </Link> */}
+      <Outlet />
       
     </div>
   );
