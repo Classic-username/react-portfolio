@@ -1,7 +1,9 @@
-import { Link } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 import Hamburger from '../Hamburger/Hamburger';
 import Button from '../Navigation and Footer Components/Nav and Footer Button/Button';
 import './Navigation.css';
+
+// TO DO: use navlink instead of link here and figure out all the fancy shenanigans of the isActive styling
 
 function Navigation() {
   return (

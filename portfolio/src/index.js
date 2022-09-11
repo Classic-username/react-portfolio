@@ -22,7 +22,7 @@ root.render(
         {/* TO DO: Set the elements once I create the project, language, and about components 
         I'm not sure what I'm gonna do about the react logo header. it's currently set up in app.js but I don't feel like extracting it right now
         TO DO: Extract react logo header out of app.js and put it in its own component  */}
-        <Route path="/" element={<App />}>
+        <Route path="/" element={[<App />]}>
           {/* <Route path="/react-logo-header" element={} /> */}
           <Route path="/projects" element={<Projects />}/>
           <Route path="/languages" element={<Languages />}/>
