@@ -1,8 +1,8 @@
 .Button{
     width: min-content;
     color: 61DAFB;
-    background-color: gray;
-    /* border: 5px red; */
+    /* background-color: gray; */
+    /* I had to set this manually in nav because styling it here overwrote what I had in nav. It now renders a color dynamically. Might have to adjust later for footer buttons. */
     margin: auto;
     padding: 5px;
     height: 21px;
