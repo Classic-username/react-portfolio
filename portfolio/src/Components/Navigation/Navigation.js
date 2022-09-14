@@ -7,7 +7,10 @@ import './Navigation.css';
 
 function Navigation() {
 
-  // I extracted the functional styling because it will apply to numerous buttons throughout the app. I didn't want it looking as messy as it promised. This way I can also get my formatting back to one line components instead of spreading everything out.
+  // I extracted the functional styling because it will apply to numerous buttons throughout the app. I didn't want 
+  // it looking as messy as it promised. This way I can also get my formatting back to one line components instead 
+  // of spreading everything out. I might end up setting this function in a plain JS file, not sure how that would
+  // look yet.
   function navButtonStyle({ isActive }) {
       return {
         textDecoration: "none",

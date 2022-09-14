@@ -2,7 +2,9 @@
     width: min-content;
     color: 61DAFB;
     /* background-color: gray; */
-    /* I had to set this manually in nav because styling it here overwrote what I had in nav. It now renders a color dynamically. Might have to adjust later for footer buttons. */
+    /* I had to set this manually in nav because styling it here overwrote what I had in nav. 
+    It now renders a color dynamically. Might have to adjust later for footer buttons, 
+    specifically in the footer */
     margin: auto;
     padding: 5px;
     height: 21px;

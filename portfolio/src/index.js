@@ -12,7 +12,9 @@ import Projects from './Components/Projects/Projects';
 import Languages from './Components/Languages/Languages';
 import About from './Components/About/About';
 
-// using tutorial at https://reactrouter.com/en/main/getting-started/tutorial for react router dom, I don't necessarily agree with the architecture but I don't know enough to do better myself so I'm just going along with it.
+// using tutorial at https://reactrouter.com/en/main/getting-started/tutorial for react router dom, 
+// I don't necessarily agree with the architecture but I don't know enough to do better myself so 
+// I'm just going along with it.
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
