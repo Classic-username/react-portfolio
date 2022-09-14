@@ -3,8 +3,6 @@ import Hamburger from '../Hamburger/Hamburger';
 import Button from '../Navigation and Footer Components/Nav and Footer Button/Button';
 import './Navigation.css';
 
-// TO DO: use navNavlink instead of Navlink here and figure out all the fancy shenanigans of the isActive styling
-
 function Navigation() {
 
   // I extracted the functional styling because it will apply to numerous buttons throughout the app. I didn't want 
