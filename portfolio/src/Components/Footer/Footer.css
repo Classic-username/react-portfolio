@@ -1,0 +1,14 @@
+.Footer{
+    display: flex;
+    background-color: darkgrey;
+    justify-items: center;
+    align-content: center;
+    height: min-content;
+}
+
+.FooterButton{
+    width: min-content;
+      color: 61DAFB;
+      background-color: gray;
+      margin: auto;
+  }
