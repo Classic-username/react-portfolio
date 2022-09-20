@@ -3,6 +3,7 @@ import { Outlet, Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import Navigation from './Components/Navigation/Navigation';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         {/* </header> */}
       {/* </Link> */}
       <Outlet />
+      <Footer />
       
     </div>
   );

@@ -12,7 +12,7 @@ function Navigation() {
   function navButtonStyle({ isActive }) {
       return {
         textDecoration: "none",
-        color: isActive ? "cyan" : "blue",
+        color: isActive ? "cyan" : "blue" ,
         backgroundColor: isActive ? "#282c34" : "gray",
     }
   }
