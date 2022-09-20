@@ -5,12 +5,12 @@ function Footer() {
 
   return (
     <div className="Footer">
-      <Button className="FooterButton" name="Home" />
-      <Button className="FooterButton" name="Projects" />
-      <Button className="FooterButton" name="Languages" />
-      <Button className="FooterButton" name="About" />
+      <Button className="FooterButton" name="Twitter" />
+      <Button className="FooterButton" name="LinkedIn" />
+      <Button className="FooterButton" name="Contact" />
+      <Button className="FooterButton" name="Placeholder" />
     </div>
   );
 }
-
+ 
 export default Footer;

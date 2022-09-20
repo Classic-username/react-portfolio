@@ -1,14 +1,20 @@
 .Footer{
     display: flex;
-    background-color: darkgrey;
+    background-color: #282c34;
     justify-items: center;
     align-content: center;
     height: min-content;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* border: 3px solid #73AD21; */
+    /* leaving this in for myself because I forgot how to do borders */
 }
 
 .FooterButton{
     width: min-content;
-      color: 61DAFB;
-      background-color: gray;
-      margin: auto;
-  }
+    color: 61DAFB;
+    background-color: gray !important;
+    margin: auto;
+    border: 3px solid greenyellow;
+}
