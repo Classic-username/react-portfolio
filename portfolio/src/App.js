@@ -8,7 +8,7 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Navigation></Navigation>
+      <Navigation />
       {/* TO DO: extract react logo header, this is also written in index.js */}
       {/* <Link to="/react-logo-header"> */}
         {/* <header className="App-header">
