@@ -2,9 +2,9 @@
     width: min-content;
     color: 61DAFB;
     /* background-color: gray; */
-    /* I had to set this manually in nav because styling it here overwrote what I had in nav. 
-    It now renders a color dynamically. Might have to adjust later for footer buttons, 
-    specifically in the footer */
+    /* So as it turns out, react is putting a class 'active' on 
+    any active 'link', I shall simply style my own css files with 
+    this 'active' class*/
     margin: auto;
     padding: 5px;
     height: 21px;

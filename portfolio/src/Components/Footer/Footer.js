@@ -5,10 +5,10 @@ function Footer() {
 
   return (
     <div className="Footer">
-      <Button className="FooterButton" name="Twitter" />
-      <Button className="FooterButton" name="LinkedIn" />
-      <Button className="FooterButton" name="Contact" />
-      <Button className="FooterButton" name="Placeholder" />
+      <Button className="FooterButton" style="background-color:grey" name="Twitter" />
+      <Button className="FooterButton" style="background-color:grey" name="LinkedIn" />
+      <Button className="FooterButton" style="background-color:grey" name="Contact" />
+      <Button className="FooterButton" style="background-color:grey" name="Placeholder" />
     </div>
   );
 }
