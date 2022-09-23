@@ -13,7 +13,7 @@
 
 .FooterButton{
     width: min-content;
-    color: #61DAFB;
+    color: cyan;
     border: 3px solid gray;
     margin: auto;
     /* border: 3px solid greenyellow; */
