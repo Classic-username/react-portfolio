@@ -3,12 +3,14 @@ import './Button.css';
 
 function Button(props) {
   const Name = props.name
-  // useState() gonna need to do something here with an onclick and some routing
-  // I might actually not have to do any useState here, it looks like React-router-dom 
-  // is handling the clicking of components and making them go places.
+  const className = "Button " + props.className
+  // The purpose of this classname is before I passed it here I had
+  // set the classname here, as well as on the component I passed 
+  // button to. This resulted in the classname on the component not
+  // taking, and my stylings for the other class just did not exist.
 
   return (
-    <div className="Button">
+    <div className={`${className}`}>
       {`${Name}`}
     </div>
   );
