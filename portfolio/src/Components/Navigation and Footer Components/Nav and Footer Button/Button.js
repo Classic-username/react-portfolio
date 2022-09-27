@@ -4,7 +4,6 @@ import './Button.css';
 function Button(props) {
   const Name = props.name
   const className = "Button " + props.className
-  const href = props.href
   // The purpose of this classname is before I passed it here I had
   // set the classname here, as well as on the component I passed 
   // button to. This resulted in the classname on the component not
@@ -12,7 +11,7 @@ function Button(props) {
 
   return (
     <div className={`${className}`}>
-      <a href={href}>{`${Name}`}</a>
+      {`${Name}`}
     </div>
   );
 }
