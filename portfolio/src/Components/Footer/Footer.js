@@ -3,12 +3,22 @@ import './Footer.css';
 
 function Footer() {
 
+// https://www.linkedin.com/in/joshua-r-draper/
+
   return (
     <div className="Footer">
-      <Button href="https://twitter.com/JoshuaD65812355" className="FooterButton" name="Twitter" />
-      <Button className="FooterButton" name="LinkedIn" />
-      <Button className="FooterButton" name="Contact" />
-      <Button className="FooterButton" name="Placeholder" />
+      <a href="https://twitter.com/JoshuaD65812355" target="_blank" rel="noreferrer">
+        <Button className="FooterButton" name="Twitter" />
+      </a>
+      <a href="https://www.linkedin.com/in/joshua-r-draper/" target="_blank" rel="noreferrer">
+        <Button className="FooterButton" name="LinkedIn" />
+      </a>
+      <a>
+        <Button className="FooterButton" name="Contact" />
+      </a>
+      <a>
+        <Button className="FooterButton" name="Placeholder" />
+      </a>
     </div>
   );
 }
