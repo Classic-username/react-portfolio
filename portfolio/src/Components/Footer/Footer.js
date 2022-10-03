@@ -3,7 +3,6 @@ import './Footer.css';
 
 function Footer() {
 
-// https://www.linkedin.com/in/joshua-r-draper/
 
   return (
     <div className="Footer">
@@ -13,12 +12,14 @@ function Footer() {
       <a href="https://www.linkedin.com/in/joshua-r-draper/" target="_blank" rel="noreferrer">
         <Button className="FooterButton" name="LinkedIn" />
       </a>
-      <a>
+      {/* <a> */}
+      {/* I have these anchors commented out for now because they were causing warnings to be thrown
+      in the compiling process (testing) */}
         <Button className="FooterButton" name="Contact" />
-      </a>
-      <a>
+      {/* </a> */}
+      {/* <a> */}
         <Button className="FooterButton" name="Placeholder" />
-      </a>
+      {/* </a> */}
     </div>
   );
 }
